@@ -1,1 +1,3 @@
-# Song-Clusters
+## Song Clusters with KMeans
+
+The present analysis sources song lyrics from the top 10 most streamed artists on Spotify using Genius' API. It implements a KMeans model in order to uncover any underlying patterns in the lyrics of 50 songs from each of the 10 artists. Ultimately, the model was successful at general distinctions, dividing the songs into four clusters composed of pop songs, rap songs, songs in a foreign language, and a cluster with miscellaneous songs where the theme was less clear. Changing the number of PCA components did little to introduce more differentiation in the clusters. 
